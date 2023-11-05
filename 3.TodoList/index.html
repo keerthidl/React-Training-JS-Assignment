@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TODO List</h1>
+  <div>
+    <input type="text" id="task" placeholder="Add a new task">
+    <select id="priority">
+      <option value="High">High</option>
+      <option value="Normal">Normal</option>
+      <option value="Low">Low</option>
+    </select>
+    <button onclick="createTask()">create Task</button>
+  </div>
+  <ul id="taskList" class="task-list"></ul>
+
+  <script src="main.js"></script>
+</body>
+</html>
